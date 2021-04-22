@@ -64,7 +64,7 @@ namespace SquareApi_AspNetCoreMvc_Demo.Controllers
             // it with the same idempotency key without worrying about double charging
             // the buyer.
             string uuid = NewIdempotencyKey();
-
+            ViewData["TransactionID"] = uuid;
             //// Get the currency for the location
             //RetrieveLocationResponse locationResponse = await client.LocationsApi.RetrieveLocationAsync(locationId: locationId);
             //string currency = locationResponse.Location.Currency;
