@@ -1,5 +1,7 @@
-# SquareApi-AspNetCoreMvc-Demo
+Deprecated: https://developer.squareup.com/docs/web-payments/migrate
 
+# SquareApi-AspNetCoreMvc-Demo
+** demo for class I was TA for in college
 Square api:
 
 Download this nuget package:
